@@ -1,0 +1,139 @@
+body {
+    background-color: #F6F1F5; /* Fondo pastel suave */
+    color: #3B2C35; /* Color de texto neutro */
+    font-family: "Alegreya", serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+    text-decoration: dashed;
+}
+
+/* Estilos para los títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Alegreya", serif;
+    color: #6C63FF; /* Un toque de lila pastel mágico */
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Estilos de h1 mágico */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.5); /* Sombra suave */
+    color: #FFB6C1; /* Rosa pastel */
+    transition: all 0.4s ease;
+}
+
+/* Efecto de hover para h1 */
+h1:hover {
+    color: #FF69B4; /* Rosa más intenso */
+    transform: scale(1.05); /* Pequeño agrandamiento */
+    text-shadow: 4px 4px 10px rgba(255, 182, 193, 0.7); /* Sombra más intensa */
+}
+
+/* Estilos para los subtítulos */
+h2 {
+    font-size: 2.5rem;
+    color: #FFD580; /* Amarillo pastel */
+    text-shadow: 1px 1px 4px rgba(255, 213, 128, 0.6);
+}
+
+h3 {
+    font-size: 2rem;
+    color: #A1D6E2; /* Azul pastel */
+    text-shadow: 1px 1px 4px rgba(161, 214, 226, 0.6);
+}
+
+/* Botones mágicos */
+button {
+    font-family: "Alegreya", serif;
+    background-color: #FFB6C1; /* Fondo rosa pastel */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Opciones de usuario (login, registro, nombre del usuario) */
+.user-options {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.user-options a, .user-options span {
+    font-family: "Alegreya", serif;
+    color: #FFD580; /* Amarillo pastel */
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.user-options .btn {
+    background-color: #f56379; /* Botón rosa pastel */
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.user-options .btn:hover {
+    background-color: #FF69B4; /* Rosa más fuerte */
+    color: #fff;
+}
+
+.first{
+    background-color: red;
+    color: azure;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: none
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+
+tfoot td {
+    background-color: #d3d3d3;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: right;
+}
+
+button {
+    background-color: #f35f5f;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
